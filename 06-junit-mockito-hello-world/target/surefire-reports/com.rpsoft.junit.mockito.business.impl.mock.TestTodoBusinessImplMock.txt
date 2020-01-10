@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.rpsoft.junit.mockito.business.impl.mock.TestTodoBusinessImplMock
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.343 sec
