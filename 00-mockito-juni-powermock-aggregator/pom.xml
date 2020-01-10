@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.rpsoft.junit.mockito</groupId>
+	<artifactId>00-mockito-juni-powermock-aggregator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>00-mockito-juni-powermock-aggregator</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.version>3.8.1</maven.compiler.version>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<modules>
+		<module>../01-junit-hello-world</module>
+		<module>../02-quick-before-after-test</module>
+		<module>../03-arrays-exception-and-performace</module>
+		<module>../04-parameterized-test</module>
+		<module>../05-organize-junit-with-suites</module>
+		<module>../06-junit-mockito-hello-world</module>
+		<module>../07-mockito-basics</module>
+		<module>../08-bdd-style-given-when-then</module>
+		<module>../09-capturing-arguments-passed-to-mock</module>
+		<module>../10-hello-harmcrest-matcher</module>
+		<module>../11-mockito-with-annotations</module>
+		<module>../12-mockito-junit-rule</module>
+		<module>../13-mockito-spy</module>
+		<module>../14-powermock-mockito-hello-world</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

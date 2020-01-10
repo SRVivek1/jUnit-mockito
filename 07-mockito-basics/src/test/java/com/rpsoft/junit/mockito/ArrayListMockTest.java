@@ -24,6 +24,7 @@ public class ArrayListMockTest {
 
 		// Given
 		//@SuppressWarnings("unchecked")
+		@SuppressWarnings("unchecked")
 		ArrayList<String> arrayListMock = mock(ArrayList.class);
 		
 		// When
